@@ -1,6 +1,6 @@
 @echo off
 setlocal
-set "GRADLE_VERSION=9.6.0"
+set "GRADLE_VERSION=9.8.2"
 set "GRADLE_HOME=%USERPROFILE%\.gradle\worldloop-distributions\gradle-%GRADLE_VERSION%"
 if not exist "%GRADLE_HOME%\bin\gradle.bat" (
     echo Downloading Gradle %GRADLE_VERSION% from the official Gradle distribution server...

@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 set -eu
-VERSION="9.6.0"
+VERSION="9.8.2"
 BASE="${GRADLE_USER_HOME:-$HOME/.gradle}/worldloop-distributions"
 GRADLE_HOME="$BASE/gradle-$VERSION"
 if [ ! -x "$GRADLE_HOME/bin/gradle" ]; then

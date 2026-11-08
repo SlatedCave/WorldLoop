@@ -29,7 +29,7 @@ This is a prototype, not a finished planet mod. Test it in a **new Superflat wor
 - Fabric Loader **0.19.5 or newer**
 - Fabric API **0.165.0+26.3 or newer for 26.3**
 - Java Development Kit **25**
-- Gradle **9.6.0** (the included launcher scripts download this version if it is not already present in the project's Gradle distribution cache)
+- Gradle **9.8.2** (the included launcher scripts download this version if it is not already present in the project's Gradle distribution cache)
 
 The project targets Mojang's unobfuscated class names used by Minecraft 26.3 and uses the current Fabric Loom plugin version configured in `gradle.properties`.
 
@@ -56,7 +56,7 @@ A successful workflow means the project passed its automated tests and Gradle bu
    gradlew.bat build
    ```
 
-The included `gradlew.bat` is a small bootstrap script: it downloads Gradle 9.6.0 and then runs the build. It does **not** depend on `gradle-wrapper.jar`.
+The included `gradlew.bat` is a small bootstrap script: it downloads Gradle 9.8.2 and then runs the build. It does **not** depend on `gradle-wrapper.jar`.
 
 The built mod JAR will be in `build\libs\`.
 
@@ -69,7 +69,7 @@ chmod +x gradlew
 ./gradlew build
 ```
 
-The launcher downloads Gradle 9.6.0 if needed. The built JAR will be in `build/libs/`.
+The launcher downloads Gradle 9.8.2 if needed. The built JAR will be in `build/libs/`.
 
 ## Run tests
 
