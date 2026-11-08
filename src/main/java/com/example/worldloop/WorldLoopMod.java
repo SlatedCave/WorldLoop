@@ -76,7 +76,7 @@ public final class WorldLoopMod implements ModInitializer {
                 player.teleportTo(newX, player.getY(), newZ);
                 LOGGER.debug(
                         "Wrapped player {} from ({}, {}) to ({}, {}).",
-                        player.getGameProfile().getName(), oldX, oldZ, newX, newZ
+                        player.getGameProfile().name(), oldX, oldZ, newX, newZ
                 );
             }
         }
